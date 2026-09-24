@@ -5,12 +5,10 @@
         padding: 0px;
         margin: 0px;
     }
-
     body {
         background-color: #2a2a2a;
 
     }
-
     div {
         display: flex;
         flex-direction: column;
@@ -27,54 +25,37 @@
         border-radius: 1rem;
 
     }
-
     h1 {
         font-size: 20px;
 
     }
-
     p {
         font-size: 15px;
+        color: #1fc4e5;
     }
 </style>
 
 <?php
-$num = 10;
-?>
+echo "<h1>Inicio</h1>";
+$x = 10;
+echo "<p>$x</p>";
 
+echo "<h1>Primero</h1>";
+$x += 5;
+echo "<p>$x</p>";
 
-<div>
-    <?php
-    echo "<h1>Valor inicial</h1>";
-    echo "<p>$num</p>";
-    ?>
-</div>
+echo "<h1>Segundo</h1>";
+$x -= 3;
+echo "<p>$x</p>";
 
+echo "<h1>Tercero</h1>";
+$x *= 2;
+echo "<p>$x</p>";
 
-<div>
-    <?php
-    echo "<h1>PostIncremento</h1>";
-    echo "<p>++$num</p>";
-    ?>
-</div>
+echo "<h1>Cuarto</h1>";
+$x /= 4;
+echo "<p>$x</p>";
 
-<div>
-    <?php
-    echo "<h1>Postincremento</h1>";
-    echo "<p>$num++</p>";
-    ?>
-</div>
-
-<div>
-    <?php
-    echo "<h1>Predecremento</h1>";
-    echo "<p>--$num</p>";
-    ?>
-</div>
-
-<div>
-    <?php
-    echo "<h1>Postdecremento</h1>";
-    echo "<p>$num--</p>";
-    ?>
-</div>
+echo "<h1>Quinto</h1>";
+$x %= 3;
+echo "<p>$x</p>";
