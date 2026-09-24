@@ -11,7 +11,7 @@
     body {
         display: flex;
         flex-direction: row;
-        background-color: #ffffff;
+        background-color: #ffffff; /*light mode*/
     }
 
     div {
