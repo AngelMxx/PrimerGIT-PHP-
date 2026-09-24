@@ -50,15 +50,12 @@
 <?php
 $num = 10;
 ?>
-
-
 <div>
     <?php
     echo "<h1>Valor inicial</h1>";
     echo "<p>$num</p>";
     ?>
 </div>
-
 
 <div>
     <?php
