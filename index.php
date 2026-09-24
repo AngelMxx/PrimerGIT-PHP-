@@ -5,10 +5,13 @@
         padding: 0px;
         margin: 0px;
         user-select: none;
+        color: black;
     }
 
     body {
-        background-color: #1a1a1a;
+        display: flex;
+        flex-direction: row;
+        background-color: #ffffff;
     }
 
     div {
@@ -16,17 +19,20 @@
         flex-direction: column;
         position: relative;
         width: fit-content;
-        min-width: 200px;
-        height: auto;
+        width: fit-content;
+        height: fit-content;
+        
         padding: 10px 20px;
 
         gap: 0px;
 
-        margin-left: 10px;
+        margin-left: 20px;
         margin-top: 10px;
 
-        background-color: rgb(255, 255, 255, 0.1);
+        background-color: rgb(0, 0, 0, 0.1);
         border-radius: 1rem;
+
+        box-shadow: 0 5px 17px rgb(0, 0, 0, 0.45);
 
         transition: all 0.13s ease;
     }
